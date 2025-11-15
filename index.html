@@ -3,58 +3,91 @@
 <head>
   <meta charset=UTF-8>
   <title>Recherche d'appartements</title>
-  
   <style>
-h1{
-  text-align: center;
-  text-decoration: underlin;
-  font-size: 80px;
-  color:6C0277;
-}
-nav{
-  font-size: 30px;
-  margin: 20px;
-  padding: 30px
-  background-color: E5D1E0;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
+     header{
+       background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_gg-dtoxEu3cktu8P1DJCUzb5nL2cLmoUrQ&usqp=CAU');
+     }
+     h1{
+       text-align: center;
+       font-size: 150px;
+       color: 6C0277;
+     }
+     body{
+       background-color: GN0290;
+     }
+     .container {
+    display: flex;
+    min-height: 50vh;
+       }
+    nav{    
+       width: 200px;
+       padding: 20px;
+       font-size: 35px;
+       background-color: E5D1E0;
     }
-nav li {
-  margin: 10px 0;
-}
-nav ul.sous {
-  display: none;
-  margin-left: 20px;
-}
-nav li.deroulant:hover > ul.sous {
-   display: block;
-}
-  </head>
-  <body>
-  </style>
 
+    nav ul {
+       list-style: none;
+       padding: 0;
+    }
+
+    nav li {
+       margin: 10px 0;
+    }
+    section {
+       flex: 1;
+       padding: 10px;
+       margin: 60px;
+     }
+     h2{
+       font-size: 30px;
+     }
+     nav ul.sous {
+       display: none;
+       margin-left: 20px;
+     }
+     nav li.deroulant:hover > ul.sous {
+       display: block;
+    </style>
+  </head>
+
+  <body>
+    
   <header>
     <h1><u>Recherche d'appartement</u></h1>
   </header>
-  
-<nav>
-  <li class="deroulant">acceuil</li>
-</br>
-  <li class="deroulant">âge
-    <ul class="sous">
-      <li><a href="index 1.html">20-35 ans</a></li>
-      <li><a href="index 2.html">35-50 ans</a></li>
-      <li><a href="index 3.html">50 ans et plus</a></li>
+
+  <div class="container"> 
+  <nav>
+    <ul>
+      <li class="deroulant"><a href="index.html">acceuil</a></li>
+      </br>
+      <li class="deroulant">âge
+       <ul class="sous">
+         <li><a href="index 1.html">20-35 ans</a></li>
+         <li><a href="index 2.html">35-50 ans</a></li>
+         <li><a href="index 3.html">50 ans et plus</a></li>
+       </ul>
+      </li>
+      </br>
+      <li class="deroulant">contact
+       <ul class=sous>
+         <li><a href="index 4.html">téléphone</a></li>
+         <li><a href="index 5.html">mail</a></li>
+         <li><a href="index 6.html">adresse</a></li>
+       </ul>
+      </li>
     </ul>
-  </li>
-</br>
-  <li class="deroulant">contact
-    <ul class="sous">
-      <li><a href="index 4.html">téléphone</a></li>
-      <li><a href="index 5.html">mail</a></li>
-      <li><a href="index 6.html">adresse</a></li>
-    </ul>
-  </li> 
-</nav>
+  </nav>
+
+  <section>
+    <article>
+      <h2>Titre</h2>
+      <p>article</p>
+    </article>
+  </section>
+    
+  </div>
+</body>
+                                              </html>
+                                                 
